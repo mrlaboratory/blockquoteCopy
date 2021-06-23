@@ -1,0 +1,30 @@
+.post-outer blockquote{
+    background: #eee;
+    margin: 10px 0;
+    text-align: left!important;
+    padding: 12px;
+    transition: .3s;
+    font: 400 17px Monospace;
+    letter-spacing: 0;
+    line-height: 1.5;
+    color: #555;
+    max-height: 300px;
+    overflow: auto;
+    border-left: 3px solid #008d4c;
+    position: relative;
+}
+.post-outer blockquote::after {
+    content: "Copy";
+    font-weight: bold;
+    width: 50px;
+    height: 26px;
+    text-align: center;
+    background: #008d4c;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: white;
+    padding: 2px;
+    border-radius: 8px;
+    cursor: pointer;
+}
