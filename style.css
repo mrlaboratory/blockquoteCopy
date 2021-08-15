@@ -1,4 +1,4 @@
-.post-outer blockquote{
+.post blockquote{
     background: #eee;
     margin: 10px 0;
     text-align: left!important;
@@ -13,7 +13,7 @@
     border-left: 3px solid #008d4c;
     position: relative;
 }
-.post-outer blockquote::after {
+.post blockquote::after {
     content: "Copy";
     font-weight: bold;
     width: 50px;
