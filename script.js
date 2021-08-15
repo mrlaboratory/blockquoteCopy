@@ -1,3 +1,4 @@
+$('head').append('<link rel="stylesheet" type="text/css" href="https://mrlaboratory.github.io/blockquoteCopy/style.css">');
 var g = $(".post blockquote");
 for (var i = 0, len = g.length; i < len; i++)
 {
